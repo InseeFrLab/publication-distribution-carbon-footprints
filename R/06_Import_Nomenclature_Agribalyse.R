@@ -2,7 +2,7 @@
 #input files:
 # - paste0(mainpath, "/Doc BDF 2017/Nomenclature_BDF_2017_VF.xlsx")
 # - paste0(mainpath, "/Doc BDF 2017/nomenclature_coicop_EN.xlsx")
-# - paste0(rootpath[1], "/Ventilation empreinte carbone/AgriBalise/Donnees versions simplifiees/AGRIBALYSE3.1_synthese.csv")
+# - paste0(PATH_COFFRE_EMPREINTE_CARBONE, "/Ventilation empreinte carbone/AgriBalise/Donnees versions simplifiees/AGRIBALYSE3.1_synthese.csv")
 # - paste0(mainpath, "/Donnees/Appariement_BdF_Agribalyse3_1.csv")
 
 #output files:
@@ -39,7 +39,7 @@ nomenclature2$code_num <- NULL
 
 #Import agribalyse :
 # version 3.1
-file <- paste0(rootpath[1], "/Ventilation empreinte carbone/AgriBalise/Donnees versions simplifiees/AGRIBALYSE3.1_synthese.csv")
+file <- paste0(PATH_COFFRE_EMPREINTE_CARBONE, "/Ventilation empreinte carbone/AgriBalise/Donnees versions simplifiees/AGRIBALYSE3.1_synthese.csv")
 agribalyse3_1 <- read_csv(file,
                           locale = locale(encoding ="UTF-8"),
                           skip = 2,
