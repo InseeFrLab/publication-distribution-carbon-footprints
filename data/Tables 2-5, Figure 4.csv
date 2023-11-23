@@ -1,0 +1,39 @@
+Figure 4;;;;;
+;Q1;Q2;Q3;Q4;Q5
+Olive oil quantity;0,15;0,15;0,21;0,19;0,29
+Olive oil spending;0,14;0,13;0,21;0,19;0,33
+Other oils quantity;0,27;0,21;0,21;0,14;0,17
+Other oils spending;0,2;0,2;0,18;0,16;0,26
+;;;;;
+Table 2; Aggregate consumption;Mean prices;CB emissions;carbon intensity;
+;(thousands of L);(euros 2017 / L);(kg CO_2/kg);(kg CO_2 / euro) ;
+Huile Olive;86075;7,88;1;0,117;
+Huile de noisette;272;17,06;8,2;0,442;
+Huile d'arachide;4595;3,72;4,26;1,054;
+Huile de colza;27792;1,88;3,24;1,582;
+Huile de sésame;223;15,97;3,24;0,186;
+Huile combinée (mélange d'huiles);32265;3,1;3,02;0,895;
+Huile pour friture, sans précision;21880;2,16;2,71;1,155;
+Huile de soja;2;9,44;2,65;0,259;
+Huile de tournesol;112007;1,88;2,58;1,265;
+Huile de pépins de raisin;3361;4,99;1,29;0,238;
+Autres huiles;202397;2,23;2,78;1,145;
+Tous huiles;288472;3,92;2,25;0,528;
+;;;;;
+Table 3;;;;;
+;Q1;Q2;Q3;Q4;Q5
+CF_imput / CF_true;0,65;0,77;0,95;1,19;1,6
+Effet prix ;0,82;0,89;0,96;1,03;1,24
+Effet intensité;0,79;0,87;1;1,15;1,3
+;;;;;
+Table 4;;;;;
+;Q1;Q2;Q3;Q4;Q5
+CF_imput / CF_true;0,56;0,78;1,02;1,27;1,77
+Effet prix ;0,75;0,87;1,02;1,09;1,25
+Effet intensité;0,75;0,89;1;1,16;1,42
+;;;;;
+Table 5;;;;;
+;Q1;Q2;Q3;Q4;Q5
+CF_imput / CF_true;0,72;0,83;0,99;1,11;1,36
+Effet prix ;0,85;0,96;0,99;0,91;1,21
+Effet intensité;0,84;0,86;1;1,21;1,13
